@@ -3,15 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import SimpleBreadcrumbs from '../src/components/breadcrumbs/breadcrumb';
-import LongMenu from '../src/components/hamburger-menu/hamburger-menu';
+import ButtonAppBar from './components/app-bar/app-bar';
 
 function IndexPage() {
     return (
         <div>
+            <ButtonAppBar/>
             <App/>
-            <LongMenu></LongMenu>
-            <SimpleBreadcrumbs></SimpleBreadcrumbs>
         </div>
     );
 }
