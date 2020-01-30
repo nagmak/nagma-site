@@ -14,6 +14,20 @@ function App() {
         <h3 class="about-me">Software Developer at IBM. Computer Science student at Ryerson University.</h3>
         <h3 class="about-me">When I'm not coding, I like to <a href="https://www.instagram.com/sansmaps/">write</a> and take <a href="https://www.instagram.com/nagmak.jpg/">photos</a>.</h3>
       </header>
+      <body>
+        <section className="projects">
+          <h3>Projects</h3>
+        </section>
+        <section className="gallery">
+          <h3>Gallery</h3>
+        </section>
+        <section className="bookshelf">
+          <h3>Bookshelf</h3>
+        </section>
+        <section className="contact">
+          <h3>Contact</h3>
+        </section>
+      </body>
     </div>
   );
 }

@@ -4,12 +4,15 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import ButtonAppBar from './components/app-bar/app-bar';
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 function IndexPage() {
     return (
         <div>
-            <ButtonAppBar/>
-            <App/>
+            <ParallaxProvider>
+                <ButtonAppBar/>
+                <App/>
+            </ParallaxProvider>
         </div>
     );
 }
