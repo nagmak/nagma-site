@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.font-brand {
+  margin-right: 48px;
+  color: #282c34;
+}
+
+.arrow {
+  color: #282c34;
+  font-weight: lighter;
+}
+
+.arrow .fa-angle-double-down {
+  margin-top: 48px;
+  margin-bottom: 24px;
+}
+
+#projects {
+  margin-bottom: 24px;
+}
+
+.contact {
+  margin-bottom: 48px;
+}

@@ -27,10 +27,11 @@ export default function ButtonAppBar() {
         <Toolbar className="toolbar">
           <img src="nagma.JPG" alt="Nagma"/>
           <Typography variant="h6" className={classes.title}>Nagma Kapoor</Typography>
-          <Button color="inherit">Projects</Button>
+          <Button color="inherit">About</Button>
+          <Button color="inherit">Blog</Button>
           <Button color="inherit">Gallery</Button>
           <Button color="inherit">Bookshelf</Button>
-          <Button color="inherit">Contact</Button>
+          <Button color="inherit">Resume</Button>
         </Toolbar>
       </AppBar>
     </div>
