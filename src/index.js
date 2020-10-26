@@ -5,14 +5,17 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import ButtonAppBar from './components/app-bar/app-bar';
 import { ParallaxProvider } from 'react-scroll-parallax';
+import { BrowserRouter } from 'react-router-dom'
 
 function IndexPage() {
     return (
         <div>
-            <ParallaxProvider>
-                <ButtonAppBar/>
-                <App/>
-            </ParallaxProvider>
+            <BrowserRouter>
+                <ParallaxProvider>
+                    <ButtonAppBar/>
+                    <App/>
+                </ParallaxProvider>
+            </BrowserRouter>
         </div>
     );
 }

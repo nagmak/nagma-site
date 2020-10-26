@@ -5,6 +5,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import './app-bar.css';
+import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -27,10 +28,11 @@ export default function ButtonAppBar() {
         <Toolbar className="toolbar">
           <img src="nagmacartoon2.JPG" alt="Nagma"/>
           <Typography variant="h6" className={classes.title}>Nagma Kapoor</Typography>
-          <Button color="inherit">About</Button>
-          <Button color="inherit">Blog</Button>
+          <Button color="inherit"><Link to='/'>Home</Link></Button>
+          <Button color="inherit"><Link to='/about'>About</Link></Button>
+          <Button color="inherit"><Link to='/blog'>Blog</Link></Button>
           <Button color="inherit"><a href="https://www.instagram.com/notnagma/">Gallery</a></Button>
-          <Button color="inherit">Bookshelf</Button>
+          <Button color="inherit"><a href="https://www.goodreads.com/review/list/51938230-nagma-k?shelf=read">Bookshelf</a></Button>
           <Button color="inherit">Resume</Button>
         </Toolbar>
       </AppBar>
