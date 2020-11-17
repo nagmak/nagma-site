@@ -8,6 +8,10 @@
     font-weight: 300;
 }
 
+.about-me a {
+    color:brown;
+}
+
 img.icon-image {
     display: flex;
     max-width: 18%;
