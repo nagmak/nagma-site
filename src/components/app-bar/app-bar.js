@@ -26,7 +26,7 @@ export default function ButtonAppBar() {
     <div className={classes.root}>
       <AppBar position="static" color="default">
         <Toolbar className="toolbar">
-          <Typography variant="h6" className={classes.title}><div className="english-text">Nagma Kapoor</div>|<div className="hindi-text">नगमा कपूर</div></Typography>
+          <Typography variant="h6" className={classes.title}><Link to='/' className={classes.title}><div className="english-text">Nagma Kapoor</div>|<div className="hindi-text">नगमा कपूर</div></Link></Typography>
           <Button color="inherit" className="btn-toolbar"><Link to='/'>Home</Link></Button>
           <Button color="inherit" className="btn-toolbar"><Link to='/about'>About</Link></Button>
           {/* <Button color="inherit"><Link to='/blog'>Blog</Link></Button> */}
