@@ -15,11 +15,13 @@ function App() {
   return (
     <div className="App">
       <div className="container">
+      <link rel="preconnect" href="https://fonts.gstatic.com"></link>
+      <link href="https://fonts.googleapis.com/css2?family=Karla&family=Lato:wght@300&display=swap" rel="stylesheet"></link>
       <Route path="/" exact component={HomePage} />
       <Route path="/about" component={AboutPage} />
       <Route path="/blog" component={BlogPage} />
     </div>
-      <body>
+      <footer className="bottom-footer">
       {/* <a className="arrow" href="#projects">
             <FontAwesomeIcon size="6x" icon={['fas', 'angle-double-down']} />
           </a>
@@ -37,7 +39,10 @@ function App() {
             <FontAwesomeIcon size="3x" icon={['fas', 'envelope']} />
           </a>
         </section>
-      </body>
+        <section className="copyright-footer">
+          <div className="copyright-footer-item">© 2020 Nagma Kapoor</div>
+        </section>
+      </footer>
     </div>
   );
 }

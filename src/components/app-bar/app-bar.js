@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles(theme => ({
   root: {
-    flexGrow: 1
+    flexGrow: 1,
   },
   menuButton: {
     marginRight: theme.spacing(2),
@@ -26,14 +26,14 @@ export default function ButtonAppBar() {
     <div className={classes.root}>
       <AppBar position="static" color="default">
         <Toolbar className="toolbar">
-          <img src="nagmacartoon2.JPG" alt="Nagma"/>
+          <img className="icon-image" src="nagmacartoon2.JPG" alt="Nagma"/>
           <Typography variant="h6" className={classes.title}>Nagma Kapoor</Typography>
-          <Button color="inherit"><Link to='/'>Home</Link></Button>
-          <Button color="inherit"><Link to='/about'>About</Link></Button>
-          <Button color="inherit"><Link to='/blog'>Blog</Link></Button>
-          <Button color="inherit"><a href="https://www.instagram.com/notnagma/">Gallery</a></Button>
-          <Button color="inherit"><a href="https://www.goodreads.com/review/list/51938230-nagma-k?shelf=read">Bookshelf</a></Button>
-          <Button color="inherit">Resume</Button>
+          <Button color="inherit" className="btn-toolbar"><Link to='/'>Home</Link></Button>
+          <Button color="inherit" className="btn-toolbar"><Link to='/about'>About</Link></Button>
+          {/* <Button color="inherit"><Link to='/blog'>Blog</Link></Button> */}
+          {/* <Button color="inherit"><a href="https://www.instagram.com/notnagma/">Gallery</a></Button> */}
+          <Button color="inherit" className="btn-toolbar"><a href="https://www.goodreads.com/review/list/51938230-nagma-k?shelf=read">Bookshelf</a></Button>
+          <Button color="inherit" className="btn-toolbar">Resume</Button>
         </Toolbar>
       </AppBar>
     </div>

@@ -17,6 +17,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #252e2d;
+  font-family: 'Lato', sans-serif;
 }
 
 .App-link {
@@ -40,4 +41,24 @@
 a {
   text-decoration: none;
   color: brown;
+}
+
+.bottom-footer {
+  display: inline-block;
+  width: 100%;   
+}
+
+.copyright-footer-item {
+    margin-right: 20px;
+    margin-left: 0px;
+    opacity: 0.8;
+    color: #000;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
 }

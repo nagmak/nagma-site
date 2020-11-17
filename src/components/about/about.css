@@ -1,0 +1,20 @@
+img.about-page-icon {
+    display: flex;
+    max-width: 22%;
+    height: auto;
+    float: left;
+    margin-left: 184px;
+    margin-right: 64px;
+    margin-bottom: 24px;
+}
+.about-page-text {
+    margin-top: 108px;
+    font-size: 1.8rem;
+    margin-right: 200px;
+    font-family: 'Karla', sans-serif;
+}
+
+.about-page-para {
+    display: flex;
+    margin-right: 188px;
+}
