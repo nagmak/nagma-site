@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <div className="container">
       <link rel="preconnect" href="https://fonts.gstatic.com"></link>
-      <link href="https://fonts.googleapis.com/css2?family=Karla&family=Lato:wght@300&display=swap" rel="stylesheet"></link>
+      <link href="https://fonts.googleapis.com/css2?family=Karma&family=Karla&family=Lato:wght@300&display=swap" rel="stylesheet"></link>
       <Route path="/" exact component={HomePage} />
       <Route path="/about" component={AboutPage} />
       <Route path="/blog" component={BlogPage} />
