@@ -15,6 +15,7 @@ function HomePage() {
             <meta
             name="viewport"
             content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"/>
+            <img className="icon-image" src="nagmacartoon2.JPG" alt="Nagma"/>
             <h1 className="name-header">Hi, I'm Nagma!</h1>
             <h3 className="about-me"><Emoji symbol="👩🏻‍💻" label="woman-dev"/>Software Developer at IBM.</h3>
             <h3 className="about-me">When I'm not coding, I like to <a href="https://www.instagram.com/nagmak__/">write <Emoji symbol="✍🏼" label="writing"/>

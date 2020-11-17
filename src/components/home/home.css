@@ -7,3 +7,11 @@
     font-family: 'Karla', sans-serif;
     font-weight: 300;
 }
+
+img.icon-image {
+    display: flex;
+    max-width: 18%;
+    height: auto;
+    border-radius: 50%;
+    float: left;
+}

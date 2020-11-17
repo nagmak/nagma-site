@@ -18,6 +18,8 @@
   font-size: calc(10px + 2vmin);
   color: #252e2d;
   font-family: 'Lato', sans-serif;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .App-link {
