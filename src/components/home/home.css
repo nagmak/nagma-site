@@ -19,3 +19,7 @@ img.icon-image {
     border-radius: 50%;
     float: left;
 }
+
+.MuiTimeline-root.MuiTimeline-alignAlternate {
+    text-align: left;
+}

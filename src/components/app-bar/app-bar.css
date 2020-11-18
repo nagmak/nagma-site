@@ -44,5 +44,10 @@ Button a {
     text-decoration-color: none !important;
     text-decoration-style: none !important;
     display: inherit;
-    color: rgba(0, 0, 0, 0.87);
+    color: rgba(0, 0, 0, 1);
+}
+
+.MuiAppBar-colorDefault {
+    background-color: #d2826e !important;
+    color:rgba(0, 0, 0, 0.97) !important;
 }
