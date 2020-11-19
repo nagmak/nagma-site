@@ -14,7 +14,7 @@
 
 img.icon-image {
     flex: 1;
-    width: 100%;
+    width: 85%;
     max-width: 400px;
     height: auto;
     border-radius: 50%;
@@ -28,7 +28,7 @@ img.icon-image {
 
 @media (max-width: 520px) {
     img.icon-image {
-        width: 80%;
+        width: 70%;
         padding: 12px;
         align-self: center;
         margin: unset;
