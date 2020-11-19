@@ -90,3 +90,5 @@ img, embed, object, video {
 .makeStyles-root-1 {
   overflow: hidden;
 }
+
+html, body { margin: 0; padding: 0 }

@@ -15,9 +15,6 @@ function AboutPage() {
                 <p className="about-page-para">Currently, I work at IBM Canada - Data Security as a Full-Stack Developer using React, Node and Go.</p>
             </div>
             </header>
-        <body>
-
-        </body>
         </div>
     )
 }

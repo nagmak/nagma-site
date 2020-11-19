@@ -23,11 +23,6 @@ function HomePage() {
             <h3 className="about-me">When I'm not coding, I like to <a href="https://www.instagram.com/nagmak__/">write <Emoji symbol="✍🏼" label="writing"/>
             </a> and take <a href="https://www.instagram.com/notnagma/">photos <Emoji symbol="📷" label="camera"/></a></h3>
         </header>
-        <body className="body-container">
-            {/* <section className="timeline" id="timeline">
-                <AlternateTimeline></AlternateTimeline>
-            </section> */}
-        </body>
         </div>
     )
 }
