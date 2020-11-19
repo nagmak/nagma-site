@@ -3,6 +3,7 @@ img.about-page-icon {
     width: 100%;
     max-width: 400px;
     height: auto;
+    border-radius: 4px;
     margin-left: 64px;
     margin-right: 64px;
     margin-bottom: 24px;
@@ -49,7 +50,10 @@ img.about-page-icon {
         flex-direction: column;
         margin-top: unset;
     }
-
+    img.about-page-icon {
+        width: 80%;
+        padding: 38px;
+    }
     .about-page-text {
         margin-left: 12px;
         margin-right: 12px;
@@ -80,11 +84,20 @@ img.about-page-icon {
     .about-page-para {
         margin-right: unset;
     }
+
+    img.about-page-icon {
+        width: 80%;
+        padding: 38px;
+        margin-left: 12px;
+        margin-right: unset;
+    }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 520px) {
     img.about-page-icon {
-        margin-left: unset;
+        width: 80%;
+        padding: 38px;
+        margin-left: 12px;
         margin-right: unset;
     }
 }
