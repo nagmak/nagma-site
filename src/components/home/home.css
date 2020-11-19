@@ -27,7 +27,7 @@ img.icon-image {
 
 @media (max-width: 520px) {
     img.icon-image {
-        width: 70%;
+        width: 100%;
         padding: 12px;
         align-self: center;
         margin: unset;
