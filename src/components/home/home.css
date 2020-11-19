@@ -14,7 +14,8 @@
 
 img.icon-image {
     display: flex;
-    max-width: 18%;
+    width: 100%;
+    max-width: 500px;
     height: auto;
     border-radius: 50%;
     float: left;

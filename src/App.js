@@ -14,13 +14,14 @@ library.add(fab, fas);
 function App() {
   return (
     <div className="App">
-      <div className="container">
+      <header className="container">
+      <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width"/>
       <link rel="preconnect" href="https://fonts.gstatic.com"></link>
       <link href="https://fonts.googleapis.com/css2?family=Karma&family=Karla&family=Lato:wght@300&display=swap" rel="stylesheet"></link>
       <Route path="/" exact component={HomePage} />
       <Route path="/about" component={AboutPage} />
       <Route path="/blog" component={BlogPage} />
-    </div>
+    </header>
       <footer className="bottom-footer">
       {/* <a className="arrow" href="#projects">
             <FontAwesomeIcon size="6x" icon={['fas', 'angle-double-down']} />

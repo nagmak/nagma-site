@@ -69,3 +69,19 @@ a {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
 }
+
+img, embed, object, video {
+  max-width: 100%;
+}
+
+@media (max-width: 400px) {
+  .App-header {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+
+  .bottom-footer {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+}

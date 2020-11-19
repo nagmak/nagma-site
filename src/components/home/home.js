@@ -16,7 +16,7 @@ function HomePage() {
             <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
             <meta
             name="viewport"
-            content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"/>
+            content="minimum-scale=1, initial-scale=1, width=device-width"/>
             <img className="icon-image" src="nagmacartoon2.JPG" alt="Nagma"/>
             <h1 className="name-header">Hi, I'm Nagma!</h1>
             <h3 className="about-me"><Emoji symbol="👩🏻‍💻" label="woman-dev"/>Software Developer at IBM.</h3>
