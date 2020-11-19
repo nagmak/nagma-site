@@ -3,6 +3,7 @@
   background-color: #ffdec9;
   padding-top: 30px;
   padding-bottom: 100px;
+  overflow: hidden;
 }
 
 .App-logo {
@@ -84,4 +85,8 @@ img, embed, object, video {
     padding-left: 1.5em;
     padding-right: 1.5em;
   }
+}
+
+.makeStyles-root-1 {
+  overflow: hidden;
 }
