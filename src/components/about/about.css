@@ -52,7 +52,9 @@ img.about-page-icon {
     }
     img.about-page-icon {
         width: 80%;
-        padding: 38px;
+        padding: 12px;
+        align-self: center;
+        margin: unset;
     }
     .about-page-text {
         margin-left: 12px;
@@ -87,17 +89,17 @@ img.about-page-icon {
 
     img.about-page-icon {
         width: 80%;
-        padding: 38px;
-        margin-left: 12px;
-        margin-right: 12px;
+        padding: 12px;
+        align-self: center;
+        margin: unset;
     }
 }
 
 @media (max-width: 520px) {
     img.about-page-icon {
         width: 80%;
-        padding: 38px;
-        margin-left: 12px;
-        margin-right: 12px;
+        padding: 12px;
+        align-self: center;
+        margin: unset;
     }
 }
