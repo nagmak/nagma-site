@@ -9,8 +9,8 @@ img.about-page-icon {
 }
 .about-page-text {
     flex: 1;
-    font-size: 1.8rem;
-    /* margin-right: 200px; */
+    font-size: 1.5rem;
+    text-align: left;
     font-family: 'Karla', sans-serif;
 }
 
@@ -29,14 +29,52 @@ img.about-page-icon {
     margin-top: 108px;
 }
 
-@media (max-width: 1780px) {
+@media (max-width: 1350px) {
+
+    .about-page-text {
+        margin-left: 12px;
+        margin-right: 12px;
+        font-size: 1.3rem;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .about-page-para {
+        margin-right: unset;
+    }
+}
+
+@media (max-width: 1050px) {
     .about-page-header {
         flex-direction: column;
+        margin-top: unset;
     }
 
     .about-page-text {
-        margin-left: 64px;
-        margin-right: 64px;
+        margin-left: 12px;
+        margin-right: 12px;
+        font-size: 1.3rem;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .about-page-para {
+        margin-right: unset;
+    }
+}
+
+@media (max-width: 800px) {
+    .about-page-header {
+        flex-direction: column;
+        margin-top: unset;
+    }
+
+    .about-page-text {
+        margin-left: 12px;
+        margin-right: 12px;
+        font-size: 1rem;
+        margin-left: 24px;
+        margin-right: 24px;
     }
 
     .about-page-para {
