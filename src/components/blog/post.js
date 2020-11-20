@@ -7,6 +7,7 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import CardHeader from '@material-ui/core/CardHeader';
 import blogPost from '../../mock-data/blog.json';
+import { useHistory } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -44,6 +45,7 @@ const useStyles = makeStyles((theme) => ({
 const BlogPost = (props) => {
     console.log(props);
     const classes = useStyles();
+    let history = useHistory();
 
     const [post, setPost] = useState({
         id: "",
@@ -78,7 +80,7 @@ const BlogPost = (props) => {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Learn More</Button>
+        <Button size="small" onClick={() => history.push('/blog/')}>Return to Blog</Button>
         <Typography className={classes.cardHeader} color="textSecondary" gutterBottom>
           {post.postedOn}
         </Typography>
