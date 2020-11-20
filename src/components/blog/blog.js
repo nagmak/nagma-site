@@ -1,13 +1,13 @@
 import React from 'react';
 import BlogPost from './post';
 
-function BlogPage() {
+const Blog = (props) => {
+    console.log(props);
     return (
         <div>
-            <BlogPost></BlogPost>
-            <BlogPost></BlogPost>
+            <BlogPost {...props}></BlogPost>
         </div>
     );
 }
 
-export default BlogPage;
+export default Blog;

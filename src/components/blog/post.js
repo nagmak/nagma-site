@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
@@ -6,6 +6,7 @@ import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import CardHeader from '@material-ui/core/CardHeader';
+import blogPost from '../../mock-data/blog.json';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -40,33 +41,46 @@ const useStyles = makeStyles((theme) => ({
 }
   }));
 
-function BlogPost() {
+const BlogPost = (props) => {
+    console.log(props);
     const classes = useStyles();
-    const bull = <span className={classes.bullet}>•</span>;
-    let date = new Date().toLocaleString();
+
+    const [post, setPost] = useState({
+        id: "",
+        blogCategory: "",
+        blogTitle : "",
+        postedOn: "",
+        author: "",
+        blogImage: "",
+        blogText: ""
+    });
+
+    const [slug, setSlug] = useState('');
+
+    useEffect(() => {
+        const slug = props.match.params.slug;
+        const post = blogPost.data.find(post => post.id.toString() === slug);
+        setPost(post);
+        setSlug(slug)
+    }, [post, props.match.params.slug]);
+
+    if(post && (post.blogImage === "" || !post.blogImage)) return null;
 
     return (
     <Card elevation={2} className={classes.root}>
     <CardHeader
-        title="Shrimp and Chorizo Paella"
+        title={post.blogTitle}
       />
       <CardContent>
-        <Typography variant="h5" component="h2">
-          be{bull}nev{bull}o{bull}lent
-        </Typography>
-        <Typography className={classes.pos} color="textSecondary">
-          adjective
-        </Typography>
+        <img src={require('../../../public/blog-images/' + post.blogImage)} alt="Post" />
         <Typography variant="body2" component="p">
-          well meaning and kindly.
-          <br />
-          {'"a benevolent smile"'}
+        {post.blogText}
         </Typography>
       </CardContent>
       <CardActions>
         <Button size="small">Learn More</Button>
         <Typography className={classes.cardHeader} color="textSecondary" gutterBottom>
-          {date}
+          {post.postedOn}
         </Typography>
       </CardActions>
     </Card>
