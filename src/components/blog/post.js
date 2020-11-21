@@ -68,24 +68,32 @@ const BlogPost = (props) => {
 
     if(post && (post.blogImage === "" || !post.blogImage)) return null;
 
+    const postText = post.blogText.map(function(text, index) {
+        return (
+            <p key={ index }>
+                {text}
+            </p>
+        )
+    });
+
     return (
-    <Card elevation={2} className={classes.root}>
-    <CardHeader
-        title={post.blogTitle}
-      />
-      <CardContent>
-        <img src={require('../../../public/blog-images/' + post.blogImage)} alt="Post" />
-        <Typography variant="body2" component="p">
-        {post.blogText}
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <Button size="small" onClick={() => history.push('/blog/')}>Return to Blog</Button>
-        <Typography className={classes.cardHeader} color="textSecondary" gutterBottom>
-          {post.postedOn}
-        </Typography>
-      </CardActions>
-    </Card>
+        <Card elevation={2} className={classes.root}>
+        <CardHeader
+            title={post.blogTitle}
+        />
+        <CardContent>
+            <img src={require('../../../public/blog-images/' + post.blogImage)} alt="Post" />
+            <Typography variant="body2" component="p">
+            {postText}
+            </Typography>
+        </CardContent>
+        <CardActions>
+            <Button size="small" onClick={() => history.push('/blog/')}>Return to Blog</Button>
+            <Typography className={classes.cardHeader} color="textSecondary" gutterBottom>
+            {post.postedOn}
+            </Typography>
+        </CardActions>
+        </Card>
     )
 }
 

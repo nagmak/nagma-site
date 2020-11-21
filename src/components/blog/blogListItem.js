@@ -38,6 +38,10 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: 'column',
     alignItems: 'flex-end',
     margin: 'unset',
+
+  cardText: {
+    textAlign: 'left',
+  }
 }
   }));
 
@@ -45,6 +49,14 @@ const BlogListItem = (props) => {
     console.log(props);
     const classes = useStyles();
     let history = useHistory();
+
+    const postText = props.blogText.map(function(text, index) {
+      return (
+          <p key={ index }>
+              {text}
+          </p>
+      )
+    });
 
     return (
     <Card elevation={2} className={classes.root}>
@@ -54,7 +66,7 @@ const BlogListItem = (props) => {
       <CardContent>
         <img src={require('../../../public/blog-images/' + props.blogImage)} alt="Post" />
         <Typography variant="body2" component="p">
-        {props.blogText}
+        {postText}
         </Typography>
       </CardContent>
       <CardActions>
