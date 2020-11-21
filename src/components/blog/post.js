@@ -80,6 +80,7 @@ const BlogPost = (props) => {
         <Card elevation={2} className={classes.root}>
         <CardHeader
             title={post.blogTitle}
+            key={`${post.blogTitle}--${slug}`}
         />
         <CardContent>
             <img src={require('../../../public/blog-images/' + post.blogImage)} alt="Post" />
