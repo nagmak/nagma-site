@@ -1,17 +1,13 @@
 import React from 'react';
-// import { library } from '@fortawesome/fontawesome-svg-core'
-// import { fab } from '@fortawesome/free-brands-svg-icons'
-// import { fas } from '@fortawesome/free-solid-svg-icons'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// // import Projects from './components/projects/projects'
-// import Emoji from './components/emoji/emoji'
+import BlogPost from './post';
 
-// library.add(fab, fas);
-
-function BlogPage() {
+const Blog = (props) => {
+    console.log(props);
     return (
-        <div>Blog Page</div>
-    )
+        <div>
+            <BlogPost {...props}></BlogPost>
+        </div>
+    );
 }
 
-export default BlogPage;
+export default Blog;

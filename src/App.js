@@ -6,7 +6,8 @@ import { fas } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import HomePage from '../src/components/home/home';
 import AboutPage from '../src/components/about/about';
-import BlogPage from '../src/components/blog/blog';
+import Blog from '../src/components/blog/blog';
+import BlogList from '../src/components/blog/blogList';
 import{Route} from 'react-router-dom';
 
 library.add(fab, fas);
@@ -20,7 +21,8 @@ function App() {
       <link href="https://fonts.googleapis.com/css2?family=Karma&family=Karla&family=Lato:wght@300&display=swap" rel="stylesheet"></link>
       <Route path="/" exact component={HomePage} />
       <Route path="/about" component={AboutPage} />
-      <Route path="/blog" component={BlogPage} />
+      <Route path="/blog" component={BlogList}/>
+      <Route path="/post/:slug" component={Blog} />
     </header>
       <footer className="bottom-footer">
       {/* <a className="arrow" href="#projects">
