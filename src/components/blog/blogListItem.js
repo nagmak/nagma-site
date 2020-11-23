@@ -17,6 +17,11 @@ const useStyles = makeStyles((theme) => ({
         display: 'flex',
         flexWrap: 'wrap',
         flexDirection: 'column',
+        [theme.breakpoints.down("sm")] : {
+          minWidth: 250,
+          marginLeft: 24,
+          marginRight: 24,
+        }
     },
     bullet: {
       display: 'inline-block',
@@ -63,7 +68,7 @@ const BlogListItem = (props) => {
     <CardHeader
         title={props.blogTitle}
       />
-      <CardContent>
+      <CardContent className={classes.media}>
         <img src={require('../../../public/blog-images/' + props.blogImage)} alt="Post" />
         <Typography variant="body2" component="p">
         {postText}

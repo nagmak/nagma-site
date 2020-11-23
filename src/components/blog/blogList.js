@@ -1,6 +1,7 @@
 import React from 'react';
 import BlogListItem from './blogListItem';
 import blogPost from '../../mock-data/blog.json';
+import './blogList.css';
 
 const BlogList = () => {
     let date = new Date().toLocaleString();

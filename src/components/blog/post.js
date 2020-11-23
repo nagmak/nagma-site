@@ -18,6 +18,11 @@ const useStyles = makeStyles((theme) => ({
         display: 'flex',
         flexWrap: 'wrap',
         flexDirection: 'column',
+        [theme.breakpoints.down("sm")] : {
+            minWidth: 250,
+            marginLeft: 24,
+            marginRight: 24,
+        }
     },
     bullet: {
       display: 'inline-block',
