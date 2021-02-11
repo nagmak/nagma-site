@@ -1,0 +1,78 @@
+h6 {
+    float: right;
+    padding-left: 16px;
+    margin-top: 24px;
+}
+
+.toolbar {
+    display: flex;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+Button a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.MuiTypography-h6 {
+    font-family: 'Lato', 'sans-serif' !important;
+    font-weight: bold !important;
+    display: inherit;
+    font-size: 1.8rem !important;
+}
+
+.MuiButton-label {
+    font-family: 'Lato', 'sans-serif' !important;
+    font-weight: bolder !important;
+}
+
+.hindi-text {
+    font-family: 'Karma', 'sans-serif' !important;
+    font-weight: 300 !important;
+    padding-left: 8px;
+    line-height: 56px;
+}
+
+.english-text {
+    padding-right: 8px;
+}
+
+.MuiTypography-h6 a {
+    text-decoration: none;
+    text-decoration-color: none !important;
+    text-decoration-style: none !important;
+    display: inherit;
+    color: rgba(0, 0, 0, 1);
+}
+
+.MuiAppBar-colorDefault {
+    background-color: #d2826e !important;
+    color:rgba(0, 0, 0, 0.97) !important;
+}
+
+
+@media (max-width: 480px) {
+    .MuiToolbar-root.MuiToolbar-regular.toolbar.MuiToolbar-gutters {
+        display: flex;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+
+    .MuiTypography-h6 {
+        min-width: 100%;
+        font-size: 1.3rem !important;
+        padding-left: 8px;
+    }
+
+    .hindi-text {
+        line-height: 40px !important;
+    }
+
+    .MuiButtonBase-root.MuiButton-root.MuiButton-text.btn-toolbar.MuiButton-colorInherit {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
