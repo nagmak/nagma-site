@@ -46,7 +46,7 @@ function App() {
           </a>
         </section>
         <section className="copyright-footer">
-          <div className="copyright-footer-item">© 2020 Nagma Kapoor</div>
+          <div className="copyright-footer-item">© 2021 Nagma Kapoor</div>
         </section>
       </footer>
     </div>

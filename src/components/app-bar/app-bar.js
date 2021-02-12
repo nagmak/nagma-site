@@ -29,7 +29,8 @@ export default function ButtonAppBar() {
           <Typography variant="h6" className={classes.title}><Link to='/' className={classes.title}><div className="english-text">Nagma Kapoor</div>|<div className="hindi-text">नगमा कपूर</div></Link></Typography>
           <Button color="inherit" className="btn-toolbar"><Link to='/'>Home</Link></Button>
           <Button color="inherit" className="btn-toolbar"><Link to='/about'>About</Link></Button>
-          <Button color="inherit"><Link to='/blog'>Blog</Link></Button>
+          
+          <Button color="inherit"><a href='https://notnagma.substack.com/'>Writing</a></Button>
           {/* <Button color="inherit"><a href="https://www.instagram.com/notnagma/">Gallery</a></Button> */}
           {/* <Button color="inherit" className="btn-toolbar"><a href="https://www.goodreads.com/review/list/51938230-nagma-k?shelf=read">Bookshelf</a></Button> */}
           <Button color="inherit" className="btn-toolbar"><a href='nagma-kapoor-resume.pdf' target='_blank'>Resume</a></Button>

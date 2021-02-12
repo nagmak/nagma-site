@@ -20,8 +20,7 @@ function HomePage() {
             <img className="icon-image" src="nagmacartoon2.JPG" alt="Nagma"/>
             <h1 className="name-header">Hi, I'm Nagma!</h1>
             <h3 className="about-me"><Emoji symbol="👩🏻‍💻" label="woman-dev"/>Software Developer at IBM.</h3>
-            <h3 className="about-me">When I'm not coding, I like to <a href="https://www.instagram.com/nagmak__/">write <Emoji symbol="✍🏼" label="writing"/>
-            </a> and take <a href="https://www.instagram.com/notnagma/">photos <Emoji symbol="📷" label="camera"/></a></h3>
+            <h3 className="about-me">When I'm not coding, I like to write <Emoji symbol="✍🏼" label="writing"/> and take photos <Emoji symbol="📷" label="camera"/></h3>
         </header>
         </div>
     )
