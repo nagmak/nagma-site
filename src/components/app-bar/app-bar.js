@@ -33,7 +33,7 @@ export default function ButtonAppBar() {
           <Button color="inherit"><a href='https://notnagma.substack.com/'>Writing</a></Button>
           {/* <Button color="inherit"><a href="https://www.instagram.com/notnagma/">Gallery</a></Button> */}
           {/* <Button color="inherit" className="btn-toolbar"><a href="https://www.goodreads.com/review/list/51938230-nagma-k?shelf=read">Bookshelf</a></Button> */}
-          <Button color="inherit" className="btn-toolbar"><a href='nagma-kapoor-resume.pdf' target='_blank'>Resume</a></Button>
+          <Button color="inherit" className="btn-toolbar"><a href='Nagma-Kapoor-Resume-2021.pdf' target='_blank'>Resume</a></Button>
         </Toolbar>
       </AppBar>
     </div>
