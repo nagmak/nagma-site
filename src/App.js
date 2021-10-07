@@ -32,6 +32,9 @@ function App() {
           <Projects></Projects>
         </section> */}
         <section className="contact">
+        <a className="font-brand" href="https://github.com/nagmak">
+            <FontAwesomeIcon size="3x" icon={['fab', 'github']} />
+          </a>
         <a className="font-brand" href="https://www.instagram.com/notnagma/">
             <FontAwesomeIcon size="3x" icon={['fab', 'instagram']} />
           </a>
