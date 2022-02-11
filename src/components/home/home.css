@@ -26,10 +26,15 @@ img.icon-image {
 }
 
 @media (max-width: 520px) {
+    .App-header {
+        padding: auto;
+    }
+
     img.icon-image {
-        width: 90%;
+        width: 100%;
         padding: 12px;
         align-self: center;
         margin: unset;
+        height: unset;
     }
 }
