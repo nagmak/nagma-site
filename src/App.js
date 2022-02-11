@@ -32,19 +32,19 @@ function App() {
           <Projects></Projects>
         </section> */}
         <section className="contact">
-        <a className="font-brand" href="https://github.com/nagmak">
+        <a className="font-brand github" href="https://github.com/nagmak">
             <FontAwesomeIcon size="3x" icon={['fab', 'github']} />
           </a>
-        <a className="font-brand" href="https://www.instagram.com/notnagma/">
+        <a className="font-brand insta" href="https://www.instagram.com/notnagma/">
             <FontAwesomeIcon size="3x" icon={['fab', 'instagram']} />
           </a>
-          <a className="font-brand" href="https://twitter.com/notnagma">
+          <a className="font-brand twitter" href="https://twitter.com/notnagma">
             <FontAwesomeIcon size="3x" icon={['fab', 'twitter']} />
           </a>
-          <a className="font-brand" href="https://www.linkedin.com/in/nagmakapoor/">
+          <a className="font-brand linkedin" href="https://www.linkedin.com/in/nagmakapoor/">
             <FontAwesomeIcon size="3x" icon={['fab', 'linkedin']} />
           </a>
-          <a className="font-brand" href="mailto:nagmakapoor@gmail.com">
+          <a className="font-brand mail" href="mailto:nagmakapoor@gmail.com">
             <FontAwesomeIcon size="3x" icon={['fas', 'envelope']} />
           </a>
         </section>
