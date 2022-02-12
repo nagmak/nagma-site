@@ -82,8 +82,15 @@ img, embed, object, video {
   }
   
   .font-brand {
-    margin-inline: 16px;
-    margin-right: unset;
+    margin-right: 14px;
+  }
+
+  .github, .insta, .twitter, .linkedin {
+    margin-right: 14px;
+  }
+
+  .github {
+    margin-left: 14px;
   }
 
   .bottom-footer {
@@ -101,8 +108,15 @@ img, embed, object, video {
   }
 
   .font-brand {
-    margin-inline: 16px;
-    margin-right: unset;
+    margin-right: 14px;
+  }
+
+  .github, .insta, .twitter, .linkedin{
+    margin-right: 14px;
+  }
+
+  .github {
+    margin-left: 14px;
   }
 
   .bottom-footer {
