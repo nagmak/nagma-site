@@ -31,9 +31,6 @@ img.icon-image {
     }
 
     img.icon-image {
-        /* padding: 12px; */
-        /* align-self: center; */
-        /* margin: unset; */
         height: auto; 
         width: auto;
         max-width: 300px; 
