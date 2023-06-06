@@ -12,7 +12,8 @@ function AboutPage() {
             <div className="about-page-text">
                 <p className="about-page-para">It has been a long journey arriving here. I was born in India, grew up sailing on ships, then on shore in Singapore, Canada and USA. I identify with the experiences of being a Third Culture Kid and love to rattle on about this at random.</p>
                 <p className="about-page-para">Learning about other cultures and deep-diving into human experiences is what I enjoy the most. In my free time, I like to write poetry, short stories, read and take photos. Also a bit of a fitness junkie when stars align.</p>
-                <p className="about-page-para">Currently, I work at Twali as a software engineer using React, Next.js serverless. I'm curious about web3 and learning about Solidity + smart contracts.</p>
+                <p className="about-page-para">I've extensively used Next.js, React.js with TypeScript/JavaScript in the past 5+ years, and I also enjoy digging around the backend and server side with Node.js, Golang, and a variety of SQL and noSQL databases. I also have over a year of experience using the Amazon AWS ecosystem.</p>
+                <p className="about-page-para">Currently, I'm actively looking for new opportunities as a full stack software engineer.</p>
             </div>
             </header>
         </div>
