@@ -101,4 +101,9 @@ img.icon-image {
         max-width: 300px; 
         max-height: 300px;
     }
+
+    .about-me-container {
+        flex-direction: column;
+    }
+
 }
