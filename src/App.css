@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #ffdec9;
+  background-color: rgba(56, 63, 51, 1);
   padding-top: 30px;
   padding-bottom: 100px;
   overflow: hidden;
@@ -13,14 +13,14 @@
 }
 
 .App-header {
-  background-color: #ffdec9;
+  background-color: rgba(56, 63, 51, 1);
   min-height: 60vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #252e2d;
+  color: rgb(228, 231, 228);
   font-family: 'Lato', sans-serif;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -53,14 +53,14 @@ a {
   display: inline-block;
   width: 100%;
   padding-bottom: 12px;
-  background-color: #ffdec9;
+  background-color: rgba(56, 63, 51, 1);
 }
 
 .copyright-footer-item {
     margin-right: 20px;
     margin-left: 0px;
     opacity: 0.8;
-    color: #000;
+    color: rgb(228, 231, 228);
     font-size: 12px;
     line-height: 20px;
     font-weight: 700;
@@ -143,5 +143,5 @@ html {
 body {
   overflow: auto;
   height: 100%;
-  background-color: #ffdec9;
+  background-color: rgba(56, 63, 51, 1);
 }

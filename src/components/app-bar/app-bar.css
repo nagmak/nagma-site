@@ -48,7 +48,7 @@ Button a {
 }
 
 .MuiAppBar-colorDefault {
-    background-color: #d2826e !important;
+    background-color: rgb(228, 231, 228) !important;
     color:rgba(0, 0, 0, 0.97) !important;
 }
 
