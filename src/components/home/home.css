@@ -90,6 +90,32 @@ img.icon-image {
     text-align: left;
 }
 
+@media (max-width: 1350px) {
+    .about-me-container {
+        flex-direction: column;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 1050px) {
+    .about-me-container {
+        flex-direction: column;
+        text-align: justify;
+    }
+
+    img.icon-image {
+        width: 80%;
+        padding: 12px;
+        align-self: center;
+        margin: unset;
+    }
+
+}
+
+/* @media (max-width: 800px) {
+
+} */
+
 @media (max-width: 520px) {
     .App-header {
         padding: auto;

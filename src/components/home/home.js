@@ -25,8 +25,9 @@ function HomePage() {
                 <h1 className="name-header">I'm a Full Stack Engineer</h1>
                 </div>
                 <div className="about-me-container">
-                <h3 className="about-me">I enjoy the creative process and love collaborating with my clients to produce beautiful things. I strives to create clean, thoughtful design that is rich in physical objects and well-crafted media. I run a design newsletter where I teach design best practices. I love fashion, interior design and architecture.</h3>
-                <h3 className="about-me">My love for design comes from my passion for the arts and how they create a beautiful life. After graduating from NYU, I honed my skills while working at some of the top design shops in New York City. Now, I'm ready to help clients create modern spaces with unique style.</h3>
+                <h3 className="about-me">Currently, I'm actively looking for new opportunities as a full stack software engineer. I've extensively used Next.js, React.js with TypeScript/JavaScript in the past 5+ years.</h3>
+                <h3 className="about-me">I enjoy digging around the backend and server side with Node.js, Golang, and a variety of SQL and noSQL databases. I also have over a year of experience using the Amazon AWS ecosystem.</h3>
+
                 </div>
             </div>
 
