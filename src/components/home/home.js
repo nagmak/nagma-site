@@ -30,7 +30,6 @@ function HomePage() {
 
                 </div>
             </div>
-
         </header>
         </div>
     )
