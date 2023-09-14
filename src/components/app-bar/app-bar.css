@@ -17,15 +17,20 @@ Button a {
 }
 
 .MuiTypography-h6 {
-    font-family: 'Lato', 'sans-serif' !important;
+    font-family: "Karla", sans-serif !important;
     font-weight: bold !important;
     display: inherit;
     font-size: 1.8rem !important;
 }
 
 .MuiButton-label {
-    font-family: 'Lato', 'sans-serif' !important;
-    font-weight: bolder !important;
+    font-family: "Inconsolata", monospace !important;
+    font-weight: 500 !important;
+    text-transform: capitalize;
+    font-size: 16px;
+    letter-spacing: 0.6px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .hindi-text {
@@ -48,7 +53,7 @@ Button a {
 }
 
 .MuiAppBar-colorDefault {
-    background-color: #d2826e !important;
+    background-color: rgb(228, 231, 228) !important;
     color:rgba(0, 0, 0, 0.97) !important;
 }
 

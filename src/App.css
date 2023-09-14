@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #ffdec9;
+  background-color: rgba(56, 63, 51, 1);
   padding-top: 30px;
   padding-bottom: 100px;
   overflow: hidden;
@@ -13,14 +13,14 @@
 }
 
 .App-header {
-  background-color: #ffdec9;
+  background-color: rgba(56, 63, 51, 1);
   min-height: 60vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #252e2d;
+  color: rgb(228, 231, 228);
   font-family: 'Lato', sans-serif;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -53,14 +53,14 @@ a {
   display: inline-block;
   width: 100%;
   padding-bottom: 12px;
-  background-color: #ffdec9;
+  background-color: rgba(56, 63, 51, 1);
 }
 
 .copyright-footer-item {
     margin-right: 20px;
     margin-left: 0px;
     opacity: 0.8;
-    color: #000;
+    color: rgb(228, 231, 228);
     font-size: 12px;
     line-height: 20px;
     font-weight: 700;
@@ -75,36 +75,11 @@ img, embed, object, video {
   max-width: 100%;
 }
 
-@media (max-width: 520px) {
+@media (max-width: 960px) {
   .App-header {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-  }
-  
-  .font-brand {
-    margin-right: 14px;
-  }
-
-  .github, .insta, .twitter, .linkedin {
-    margin-right: 14px;
-  }
-
-  .github {
-    margin-left: 14px;
-  }
-
-  .bottom-footer {
-    display: flex;
     flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-@media (max-width: 470px) {
-  .App-header {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
   }
 
   .font-brand {
@@ -127,6 +102,75 @@ img, embed, object, video {
     margin-left: auto;
     margin-right: auto;
   }
+
+  .name-header {
+    font-size: 60px !important;
+  }
+
+  .about-me-container { 
+    margin-left: 24px;
+    width: 100%;
+  }
+
+  .vertical-name-header { 
+    transform: unset !important;
+  }
+
+  .content { 
+    width: unset !important;
+  }
+
+  .name-header-container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .App-header {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    flex-direction: column;
+  }
+
+  .font-brand {
+    margin-right: 14px;
+  }
+
+  .github, .insta, .twitter, .linkedin{
+    margin-right: 14px;
+  }
+
+  .github {
+    margin-left: 14px;
+  }
+
+  .bottom-footer {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .name-header {
+    font-size: 60px !important;
+  }
+
+  .about-me-container { 
+    margin-left: 24px;
+    width: 100%;
+  }
+
+  .vertical-name-header { 
+    transform: unset !important;
+  }
+
+  .content { 
+    width: unset !important;
+  }
 }
 
 .makeStyles-root-1 {
@@ -143,5 +187,5 @@ html {
 body {
   overflow: auto;
   height: 100%;
-  background-color: #ffdec9;
+  background-color: rgba(56, 63, 51, 1);
 }
