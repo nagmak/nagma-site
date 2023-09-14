@@ -2,9 +2,7 @@ import React from 'react';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { fas } from '@fortawesome/free-solid-svg-icons';
-import Emoji from '../emoji/emoji';
 import './home.css';
-// import AlternateTimeline from '../timeline/timeline';
 
 library.add(fab, fas);
 
