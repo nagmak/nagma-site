@@ -43,7 +43,8 @@ function App() {
           </a>
         </section>
         <section className="copyright-footer">
-          <div className="copyright-footer-item">© 2023 Nagma Kapoor</div>
+          <div className="copyright-footer-item">Built with 🤍</div>
+          <div className="copyright-footer-item">Nagma Kapoor © 2023 </div>
         </section>
       </footer>
     </div>

@@ -23,8 +23,8 @@ function HomePage() {
                 <h1 className="name-header">I'm a Full Stack Engineer</h1>
                 </div>
                 <div className="about-me-container">
-                <h3 className="about-me">Currently, I'm actively looking for new opportunities as a full stack software engineer. I've extensively used Next.js, React.js with TypeScript/JavaScript in the past 5+ years.</h3>
-                <h3 className="about-me">I enjoy digging around the backend and server side with Node.js, Golang, and a variety of SQL and noSQL databases. I also have over a year of experience using the Amazon AWS ecosystem.</h3>
+                <h3 className="about-me">Currently, I am a Software Engineer at theScore, building on the Retail team. I've extensively used Next.js, React.js with TypeScript/JavaScript in the past 3+ years.</h3>
+                <h3 className="about-me">I also enjoy digging around the backend and server side with Node.js, Golang, and a variety of SQL and noSQL databases. I also have over a year of experience using the Amazon AWS ecosystem.</h3>
 
                 </div>
             </div>
